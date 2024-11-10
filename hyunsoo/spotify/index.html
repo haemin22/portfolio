@@ -171,9 +171,11 @@
                         </div>
                     </div>
                     <div class="price-item">
+                        <div class="start-card">
                         <b>베이직</b>
                         <p>매월 7,900원(부가세 별도)</p>
                         <p>계정 1개</p>
+                    </div>
                         <hr>
                         <ul>
                             <li><img src="./images/check.png" alt="체크"><p>무광고로 음악 감상하기</p></li>
@@ -181,8 +183,10 @@
                             <li><img src="./images/check.png" alt="체크"><p>8천만 곡 감상 가능</p></li>
                             <li><img src="./images/check.png" alt="체크"><p>여러 디바이스에서 감상</p></li>
                         </ul>
+                        <div class="end-card">
                         <a class="btn black" href="#">시작하기</a>
                         <small>이용 약관이 적용됩니다.</small>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,36 +198,59 @@
                 <div class="qna-box">
                     <ul>
                         <li>
-                            <input type="checkbox" id="title-1" />
+                            <input type="checkbox" id="title-1"/>
                             <label for="title-1">
                                 <span>Spotify Premium이란 무엇인가요?</span>
                                 <img src="./images/swipe_down.png" alt="상단으로 가기" />
                             </label>
                             <div class="description">
                                 <p>Spotify Premium은 광고 없이 무제한 음악 스트리밍을 제공하는 서비스입니다.</p>
+                                <p>대한민국에서는 베이직,개인 및 듀오 요금제로 Spotify Premium을 사용할 수 있습니다.</p>
                             </div>
                         </li>
                         <li>
-                            <input type="checkbox" id="title-2" />
+                            <input type="checkbox" id="title-2"/>
                             <label for="title-2">
                                 <span>Spotify Premium 체험은 어떻게 이용하나요?</span>
                                 <img src="./images/swipe_down.png" alt="상단으로 가기" />
                             </label>
                             <div class="description">
-                                <p>Spotify Premium은 광고 없이 무제한 음악 스트리밍을 제공하는 서비스입니다.</p>
+                                <p>이전에 Premium 요금제를 이용해 본 적이 없다면 무료 체험 또는 할인된 요금으로 이용할 수 있습니다.</p>
+                                <br>
+                                <p>무료 체험을 이용하려면 가입할 때 유효한 결제 수단을 입력해야 합니다. 입력해 주신 결제 정보는 국가나 지역을 확인하는 데 사용되며, 무료 체험 혜택이 종료된 후에 Premium을 계속 이용하기로 결정할 경우에 결제 수단으로 사용됩니다.</p>
                             </div>
                         </li>
                         <li>
-                            <b>Premium 요금제를 해지하려면 어떻게 해야 하나요?</b>
-                            <img src="./images/swipe_down.png" alt="상단으로가기">
+                            <input type="checkbox" id="title-3"/>
+                            <label for="title-3">
+                                <span>Premium 요금제를 해지하려면 어떻게 해야하나요?</span>
+                                <img src="./images/swipe_down.png" alt="상단으로 가기" />
+                            </label>
+                            <div class="description">
+                                <p>계정 페이지에서 언제든지 온라인으로 손쉽게 Premium 요금제를 해지할 수 있습니다. Premium은 다음 청구 날짜까지 계속 이용하실 수 있으며 이후 계정이 무료 요금제로 전환됩니다.</p>
+                                <br>
+                                <p>무료 계정으로 전환해도 플레이리스트 및 저장된 음악은 유지되며 광고와 함께 음악을 들을 수 있습니다.</p>
+                            </div>
                         </li>
                         <li>
-                            <b>Premium 듀오 요금제는 어떻게 이용하나요?</b>
-                            <img src="./images/swipe_down.png" alt="상단으로가기">
+                            <input type="checkbox" id="title-4"/>
+                            <label for="title-4">
+                                <span>Premium 듀오 요금제는 어떻게 이용하나요?</span>
+                                <img src="./images/swipe_down.png" alt="상단으로 가기" />
+                            </label>
+                            <div class="description">
+                                <p>Premium 듀오는 같이 사는 두 사람을 위한 요금제입니다. 두 개의 정가 Premium 개인 계정을 갖는 것과 비교하면 가격이 저렴합니다. 두 사람이 같은 주소지에 살고 있는지 확인할 수 있도록 주소를 제공해 주셔야 합니다. 요금제 결제 직후에 멤버를 초대할 수 있습니다. 각 멤버에게 별도의 Premium 계정이 주어지며 각자 자신의 계정으로 동시에 음악을 들을 수 있습니다. 저장한 음악과 플레이리스트는 따로 가질 수 있습니다. 요금제 멤버는 서로가 무엇을 듣고 있는지 볼 수 없습니다.</p>
+                            </div>
                         </li>
                         <li>
-                            <b>대한민국에서 Spotify Premium 요금은 얼마인가요?</b>
-                            <img src="./images/swipe_down.png" alt="상단으로가기">
+                            <input type="checkbox" id="title-5"/>
+                            <label for="title-5">
+                                <span>대한민국에서 Spotify Premium 요금은 얼마인가요?</span>
+                                <img src="./images/swipe_down.png" alt="상단으로 가기" />
+                            </label>
+                            <div class="description">
+                                <p>대한민국의 Spotify Premium 가격은 선택한 Premium 요금제에 따라 다릅니다. Spotify Premium 베이직 요금제는 ₩8,690(매월 기준), Premium 개인 요금제는 ₩11,990(매월 기준), Premium 듀오 요금제는 ₩17,985(매월 기준)입니다. 이전에 Premium 요금제를 이용해 본 적이 없다면 무료 체험 또는 할인된 요금으로 이용할 수 있습니다. 국가 제한 및 약관이 적용됩니다.</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -231,7 +258,87 @@
         </div>
     </main>
     <footer>
-        <div class="container">footer111</div>
+        <div class="container">
+            <div class="footer-top">
+                <nav>
+                    <h1 class="logo">
+                        <a href="#">
+                            <img src="./images/logo.svg" alt="스포티파이">
+                        </a>
+                    </h1>
+                    <div class="footer-main">
+                        <ul>
+                            <li>
+                                <p>회사</p>
+                                <a href="#">상세정보</a>
+                                <a href="#">채용 정보</a>
+                                <a href="#">For the Record</a>
+                            </li>
+                            <li>
+                                <p>커뮤니티</p>
+                                <a href="#">아티스트</a>
+                                <a href="#">개발자</a>
+                                <a href="#">광고</a>
+                                <a href="#">투자자</a>
+                                <a href="#">공급업체</a>
+                            </li>
+                            <li>
+                                <p>유용한 링크</p>
+                                <a href="#">지원</a>
+                                <a href="#">웹 플레이어</a>
+                                <a href="#">무료 모바일 앱</a>
+                            </li>
+                            <li>
+                                <p>SPOTIFY 요금제</p>
+                                <a href="#">Premium 개인</a>
+                                <a href="#">Premium 듀오</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/instagram.svg" alt="인스타그램">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/twitter.svg" alt="트위터">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/facebook.svg" alt="페이스북">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-sub1">
+                    <p>대한민국(한국어)</p>
+                </div>
+                <div class="footer-sub2">
+                    <ul>
+                        <li>법률 정보</li>
+                        <li>안전 및 개인정보 보호 센터</li>
+                        <li>개인정보 처리방침</li>
+                        <li>광고 상세정보</li>
+                        <li>접근성</li>
+                    </ul>
+                    <div class="footer-sub2-twenty">
+                        <p>©2024 Spotify AB</p>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <p>스포티파이 에이비, Regeringsgatan 19, 111 53 Stockholm, Sweden | 대표: 다니엘 에크 | 사업자등록번호:
+                    556703-7485 (스웨덴) | 통신판매업 신고번호: 2024-공정-0007 (사업자정보) | 고객지원문의 +82 1533 6552 및 support@spotify.com |
+                    호스팅서비스제공자: Google LLC</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
