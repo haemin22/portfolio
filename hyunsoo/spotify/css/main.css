@@ -514,13 +514,155 @@ footer .icon{
     color: #919496;
     font-size: 12px;
 }
+
+/* hamburger */
+.hamburger-btn {
+    display: none;
+    width: 21px;
+}
+
+.hamburger-btn img {
+    width: 100%;
+}
+
+.m-nav {
+    position: fixed;
+    top: 0;
+    right: -100px;
+    background-color: #fff;
+    width: 90%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.m-nav.open {
+    right: 0;
+    opacity: 1;
+}
+
+.dimmed{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.dimmed.open{
+    display: block;
+}
+
 /* media query */
 @media screen and (max-width: 991px) {
-    body {
-        background-color: red;
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo a img{
+        width: 89px;
+    }
+
+    .gnb {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: block;
+    }
+
+    .section.app{
+        padding: 0;
+    }
+
+    main .section.intro .container{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    .section.intro .intro-left{
+        padding: 0 16px 20px;
+        margin: 0;
+        
+    }
+
+    .section.intro .intro-left strong{
+        font-size: 34px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .section.intro .intro-left .sub-text{
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .section.intro .intro-left .btn{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .section.intro .intro-left .intro-btn-group{
+        padding: 0;
+    }
+    .section.intro .intro-right img{
+        width: 100%;
+    }
+
+    .section.app .container{
+        padding: 30px 16px;
+    }
+
+    .section.app strong{
+        font-size: 32px;
+    }
+
+    .section.app .sub-text{
+        font-size: 16px;
+    }
+
+    .section.reason .flex-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 16px;
+    }
+
+    .section.reason strong{
+        font-size: 32px;
+    }
+
+    .section.reason .reason-item {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .section.price strong{
+        font-size: 32px;
+    }
+
+    .section.price .flex-container{
+        display: block;
+        padding: 0 16px;
+    }
+    
+    .section.price .price-item{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .section.price .price-item .btn-item{
+        padding: 0;
+        margin: 0;
     }
 
     footer {
         display: block;
     }
+
 }
