@@ -558,6 +558,10 @@ footer .icon{
     flex: 1;
 }
 
+.m-nav > ul > li:first-child > a{
+    color: yellow;
+}
+
 .m-nav-item{
     color: #fff;
 }
