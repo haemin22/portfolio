@@ -525,25 +525,37 @@ footer .icon{
     width: 100%;
 }
 
+.m-nav-close-btn{
+    display: block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-left: auto;
+}
+
 .m-nav {
     position: fixed;
     top: 0;
-    right: 0px;
+    right: -100%;
     background-color: #000;
     width: 90%;
     height: 100%;
-    /* opacity: 0; */
+    opacity: 0;
     transition: all 0.3s;
     z-index: 1000;
     padding: 38px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .m-nav.open {
     right: 0;
     opacity: 1;
+}
+
+.m-nav > ul{
+    flex: 1;
 }
 
 .m-nav-item{
