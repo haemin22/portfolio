@@ -1,0 +1,27 @@
+/* common */
+.container {
+    padding: 0 16px;
+}
+
+/* layouts */
+.top-menu {
+    background-color: #666;
+}
+header {
+    background-color: #111;
+}
+.section-main {
+    background-color: #555;
+}
+.section-quick-menu {
+    background-color: #ccc;
+}
+.section-sub-menu {
+    background-color: #333;
+}
+.section-service-menu {
+    background-color: #eee;
+}
+footer {
+    background-color: #999;
+}
